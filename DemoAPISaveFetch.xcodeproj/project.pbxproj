@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D40B8A371217619BD7065AB /* Pods_DemoAPISaveFetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940AA19CB180F2288FC1425 /* Pods_DemoAPISaveFetch.framework */; };
 		A8613E492110B401006FD0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E482110B401006FD0AC /* AppDelegate.swift */; };
-		A8613E4B2110B401006FD0AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E4A2110B401006FD0AC /* ViewController.swift */; };
-		A8613E4E2110B401006FD0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8613E4C2110B401006FD0AC /* Main.storyboard */; };
 		A8613E512110B401006FD0AC /* DemoAPISaveFetch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8613E4F2110B401006FD0AC /* DemoAPISaveFetch.xcdatamodeld */; };
 		A8613E532110B404006FD0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8613E522110B404006FD0AC /* Assets.xcassets */; };
 		A8613E562110B404006FD0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8613E542110B404006FD0AC /* LaunchScreen.storyboard */; };
+		A8613E5E2110B42D006FD0AC /* NetworkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E5D2110B42D006FD0AC /* NetworkServiceManager.swift */; };
+		A8613E612111AB4B006FD0AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E5F2111AB4B006FD0AC /* ViewController.swift */; };
+		A8613E622111AB4B006FD0AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8613E602111AB4B006FD0AC /* ViewController.xib */; };
+		A8613E642111ACE1006FD0AC /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E632111ACE1006FD0AC /* DataBaseManager.swift */; };
+		A8613E6A2111AE5C006FD0AC /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E692111AE5C006FD0AC /* Controller.swift */; };
+		A8613E6D2111B596006FD0AC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E6B2111B596006FD0AC /* TableViewCell.swift */; };
+		A8613E6E2111B596006FD0AC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8613E6C2111B596006FD0AC /* TableViewCell.xib */; };
+		A8613E752111BD92006FD0AC /* Log+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E732111BD92006FD0AC /* Log+CoreDataClass copy.swift */; };
+		A8613E762111BD92006FD0AC /* Log+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E742111BD92006FD0AC /* Log+CoreDataProperties copy.swift */; };
+		A8613E792111D8EF006FD0AC /* ImageDownloaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E772111D8EF006FD0AC /* ImageDownloaderVC.swift */; };
+		A8613E7A2111D8EF006FD0AC /* ImageDownloaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8613E782111D8EF006FD0AC /* ImageDownloaderVC.xib */; };
+		A8613E7D2111DA55006FD0AC /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8613E7B2111DA55006FD0AC /* ImageTableViewCell.swift */; };
+		A8613E7E2111DA55006FD0AC /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8613E7C2111DA55006FD0AC /* ImageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31A820980447EC7C347AB96F /* Pods-DemoAPISaveFetch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAPISaveFetch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoAPISaveFetch/Pods-DemoAPISaveFetch.debug.xcconfig"; sourceTree = "<group>"; };
+		36478B9A680AB46CF4B993D1 /* Pods-DemoAPISaveFetch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAPISaveFetch.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoAPISaveFetch/Pods-DemoAPISaveFetch.release.xcconfig"; sourceTree = "<group>"; };
 		A8613E452110B401006FD0AC /* DemoAPISaveFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAPISaveFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8613E482110B401006FD0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8613E4A2110B401006FD0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8613E4D2110B401006FD0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8613E502110B401006FD0AC /* DemoAPISaveFetch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoAPISaveFetch.xcdatamodel; sourceTree = "<group>"; };
 		A8613E522110B404006FD0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8613E552110B404006FD0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8613E572110B404006FD0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8613E5D2110B42D006FD0AC /* NetworkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceManager.swift; sourceTree = "<group>"; };
+		A8613E5F2111AB4B006FD0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8613E602111AB4B006FD0AC /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A8613E632111ACE1006FD0AC /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		A8613E692111AE5C006FD0AC /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		A8613E6B2111B596006FD0AC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A8613E6C2111B596006FD0AC /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A8613E732111BD92006FD0AC /* Log+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		A8613E742111BD92006FD0AC /* Log+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		A8613E772111D8EF006FD0AC /* ImageDownloaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderVC.swift; sourceTree = "<group>"; };
+		A8613E782111D8EF006FD0AC /* ImageDownloaderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDownloaderVC.xib; sourceTree = "<group>"; };
+		A8613E7B2111DA55006FD0AC /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		A8613E7C2111DA55006FD0AC /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		C940AA19CB180F2288FC1425 /* Pods_DemoAPISaveFetch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAPISaveFetch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D40B8A371217619BD7065AB /* Pods_DemoAPISaveFetch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D6327ADD3FE5D96DB6BE5A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A820980447EC7C347AB96F /* Pods-DemoAPISaveFetch.debug.xcconfig */,
+				36478B9A680AB46CF4B993D1 /* Pods-DemoAPISaveFetch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8613E3C2110B401006FD0AC = {
 			isa = PBXGroup;
 			children = (
+				A8613E732111BD92006FD0AC /* Log+CoreDataClass copy.swift */,
+				A8613E742111BD92006FD0AC /* Log+CoreDataProperties copy.swift */,
 				A8613E472110B401006FD0AC /* DemoAPISaveFetch */,
 				A8613E462110B401006FD0AC /* Products */,
+				7D6327ADD3FE5D96DB6BE5A6 /* Pods */,
+				C21C844F537D74D95EC84174 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +97,31 @@
 			isa = PBXGroup;
 			children = (
 				A8613E482110B401006FD0AC /* AppDelegate.swift */,
-				A8613E4A2110B401006FD0AC /* ViewController.swift */,
-				A8613E4C2110B401006FD0AC /* Main.storyboard */,
+				A8613E5F2111AB4B006FD0AC /* ViewController.swift */,
+				A8613E602111AB4B006FD0AC /* ViewController.xib */,
+				A8613E5D2110B42D006FD0AC /* NetworkServiceManager.swift */,
+				A8613E632111ACE1006FD0AC /* DataBaseManager.swift */,
+				A8613E692111AE5C006FD0AC /* Controller.swift */,
+				A8613E6B2111B596006FD0AC /* TableViewCell.swift */,
+				A8613E6C2111B596006FD0AC /* TableViewCell.xib */,
+				A8613E772111D8EF006FD0AC /* ImageDownloaderVC.swift */,
+				A8613E782111D8EF006FD0AC /* ImageDownloaderVC.xib */,
+				A8613E7B2111DA55006FD0AC /* ImageTableViewCell.swift */,
+				A8613E7C2111DA55006FD0AC /* ImageTableViewCell.xib */,
 				A8613E522110B404006FD0AC /* Assets.xcassets */,
 				A8613E542110B404006FD0AC /* LaunchScreen.storyboard */,
 				A8613E572110B404006FD0AC /* Info.plist */,
 				A8613E4F2110B401006FD0AC /* DemoAPISaveFetch.xcdatamodeld */,
 			);
 			path = DemoAPISaveFetch;
+			sourceTree = "<group>";
+		};
+		C21C844F537D74D95EC84174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C940AA19CB180F2288FC1425 /* Pods_DemoAPISaveFetch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8613E5A2110B404006FD0AC /* Build configuration list for PBXNativeTarget "DemoAPISaveFetch" */;
 			buildPhases = (
+				8EDB2A15D5F009B5E33903CF /* [CP] Check Pods Manifest.lock */,
 				A8613E412110B401006FD0AC /* Sources */,
 				A8613E422110B401006FD0AC /* Frameworks */,
 				A8613E432110B401006FD0AC /* Resources */,
+				5BB3C291C471481AECE4FEE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +185,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8613E562110B404006FD0AC /* LaunchScreen.storyboard in Resources */,
+				A8613E6E2111B596006FD0AC /* TableViewCell.xib in Resources */,
+				A8613E622111AB4B006FD0AC /* ViewController.xib in Resources */,
+				A8613E7E2111DA55006FD0AC /* ImageTableViewCell.xib in Resources */,
+				A8613E7A2111D8EF006FD0AC /* ImageDownloaderVC.xib in Resources */,
 				A8613E532110B404006FD0AC /* Assets.xcassets in Resources */,
-				A8613E4E2110B401006FD0AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB3C291C471481AECE4FEE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoAPISaveFetch/Pods-DemoAPISaveFetch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoAPISaveFetch/Pods-DemoAPISaveFetch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDB2A15D5F009B5E33903CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoAPISaveFetch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8613E412110B401006FD0AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8613E4B2110B401006FD0AC /* ViewController.swift in Sources */,
+				A8613E752111BD92006FD0AC /* Log+CoreDataClass copy.swift in Sources */,
+				A8613E5E2110B42D006FD0AC /* NetworkServiceManager.swift in Sources */,
 				A8613E492110B401006FD0AC /* AppDelegate.swift in Sources */,
+				A8613E7D2111DA55006FD0AC /* ImageTableViewCell.swift in Sources */,
+				A8613E612111AB4B006FD0AC /* ViewController.swift in Sources */,
+				A8613E6D2111B596006FD0AC /* TableViewCell.swift in Sources */,
 				A8613E512110B401006FD0AC /* DemoAPISaveFetch.xcdatamodeld in Sources */,
+				A8613E642111ACE1006FD0AC /* DataBaseManager.swift in Sources */,
+				A8613E792111D8EF006FD0AC /* ImageDownloaderVC.swift in Sources */,
+				A8613E762111BD92006FD0AC /* Log+CoreDataProperties copy.swift in Sources */,
+				A8613E6A2111AE5C006FD0AC /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8613E4C2110B401006FD0AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8613E4D2110B401006FD0AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8613E542110B404006FD0AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,9 +385,10 @@
 		};
 		A8613E5B2110B404006FD0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A820980447EC7C347AB96F /* Pods-DemoAPISaveFetch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 247SKTDF4X;
 				INFOPLIST_FILE = DemoAPISaveFetch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +397,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inadev.-.DemoAPISaveFetch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3480bdbc-dd9a-4115-8a7d-36cfec31ba51";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Certificate for all devices";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,9 +406,10 @@
 		};
 		A8613E5C2110B404006FD0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36478B9A680AB46CF4B993D1 /* Pods-DemoAPISaveFetch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 247SKTDF4X;
 				INFOPLIST_FILE = DemoAPISaveFetch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +418,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inadev.-.DemoAPISaveFetch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3480bdbc-dd9a-4115-8a7d-36cfec31ba51";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Certificate for all devices";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
